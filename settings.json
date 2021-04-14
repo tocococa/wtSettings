@@ -38,7 +38,7 @@
                 // Make changes here to the powershell.exe profile.
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "name": "Windows PowerShell",
-                "colorScheme" : "Pro",
+                "colorScheme" : "Hosaka",
                 "commandline": "powershell.exe -NoLogo",
                 "startingDirectory": ".",
                 "hidden": false
@@ -48,6 +48,7 @@
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "name": "Command Prompt",
                 "commandline": "cmd.exe",
+                "colorScheme" : "Brogrammer",
                 "startingDirectory": ".",
                 "hidden": false
             },
@@ -66,10 +67,9 @@
             {
                 "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
                 "hidden": false,
-                "colorScheme" : "Ubuntu",
+                "colorScheme" : "Argonaut",
                 "name": "Ubuntu-18.04",
-                "source": "Windows.Terminal.Wsl",
-                "startingDirectory": "."
+                "source": "Windows.Terminal.Wsl"
             },
             {
                 "guid": "{00000000-0000-0000-0000-000000012345}",
@@ -83,7 +83,7 @@
                 "guid": "{00000000-0000-0000-0000-000000012346}",
                 "hidden": false,
                 "name": "TraceNG",
-                "colorScheme" : "ENCOM",
+                "colorScheme" : "Pro",
                 "commandline": "D:\\tococ\\Programs\\SolarWinds-FT-TracerouteNG-1.0.0\\traceng.exe",
                 "icon": "D:\\tococ\\Programs\\SolarWinds-FT-TracerouteNG-1.0.0\\traceng.jpg"
             }
@@ -115,27 +115,6 @@
             "foreground": "#eeeeec"
           },
           {
-            "name": "ENCOM",
-            "black": "#000000",
-            "red": "#9f0000",
-            "green": "#008b00",
-            "yellow": "#ffd000",
-            "blue": "#0081ff",
-            "purple": "#bc00ca",
-            "cyan": "#008b8b",
-            "white": "#bbbbbb",
-            "brightBlack": "#555555",
-            "brightRed": "#ff0000",
-            "brightGreen": "#00ee00",
-            "brightYellow": "#ffff00",
-            "brightBlue": "#0000ff",
-            "brightPurple": "#ff00ff",
-            "brightCyan": "#00cdcd",
-            "brightWhite": "#ffffff",
-            "background": "#000000",
-            "foreground": "#00a595"
-          },
-          {
             "name": "Brogrammer",
             "black": "#1f1f1f",
             "red": "#f81118",
@@ -153,7 +132,7 @@
             "brightPurple": "#5350b9",
             "brightCyan": "#0f7ddb",
             "brightWhite": "#ffffff",
-            "background": "#131313",
+            "background": "#000000",
             "foreground": "#d6dbe5"
           },
           {
@@ -176,6 +155,75 @@
             "brightWhite": "#e5e5e5",
             "background": "#000000",
             "foreground": "#f2f2f2"
+          },
+          {
+            "name": "3024 Night",
+            "black": "#090300",
+            "red": "#db2d20",
+            "green": "#01a252",
+            "yellow": "#fded02",
+            "blue": "#01a0e4",
+            "purple": "#a16a94",
+            "cyan": "#b5e4f4",
+            "white": "#a5a2a2",
+            "brightBlack": "#5c5855",
+            "brightRed": "#e8bbd0",
+            "brightGreen": "#3a3432",
+            "brightYellow": "#4a4543",
+            "brightBlue": "#807d7c",
+            "brightPurple": "#d6d5d4",
+            "brightCyan": "#cdab53",
+            "brightWhite": "#f7f7f7",
+            "background": "#090300",
+            "foreground": "#a5a2a2",
+            "selectionBackground": "#4a4543",
+            "cursorColor": "#a5a2a2"
+          },
+          {
+            "name": "Argonaut",
+            "black": "#232323",
+            "red": "#ff000f",
+            "green": "#8ce10b",
+            "yellow": "#ffb900",
+            "blue": "#008df8",
+            "purple": "#6d43a6",
+            "cyan": "#00d8eb",
+            "white": "#ffffff",
+            "brightBlack": "#444444",
+            "brightRed": "#ff2740",
+            "brightGreen": "#abe15b",
+            "brightYellow": "#ffd242",
+            "brightBlue": "#0092ff",
+            "brightPurple": "#9a5feb",
+            "brightCyan": "#67fff0",
+            "brightWhite": "#ffffff",
+            "background": "#000000",
+            "foreground": "#fffaf4",
+            "selectionBackground": "#002a3b",
+            "cursorColor": "#ff0018"
+          },
+          {
+            "name": "Hosaka",
+            "black": "#000000",
+            "red": "#ff0000",
+            "green": "#00a600",
+            "yellow": "#ff8000",
+            "blue": "#2009db",
+            "purple": "#b200b2",
+            "cyan": "#00a6b2",
+            "white": "#bfbfbf",
+            "brightBlack": "#666666",
+            "brightRed": "#e50000",
+            "brightGreen": "#00d900",
+            "brightYellow": "#ffc800",
+            "brightBlue": "#0000ff",
+            "brightPurple": "#e500e5",
+            "brightCyan": "#00e5e5",
+            "brightWhite": "#e5e5e5",
+            "background": "#000000",
+            "foreground": "#fffae6",
+            "selectionBackground": "#45a5ce",
+            "cursorColor": "#ffc800"
           }
     ],
 
